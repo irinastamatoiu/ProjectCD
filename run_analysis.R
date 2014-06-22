@@ -1,6 +1,6 @@
-# store the current directory
+## store the current directory
 initial.dir<-getwd()
-# change to the new directory
+## change to the new directory
 setwd("ProjectCD")
 library(reshape)
 ## Point 1: Merge the training and the test sets to create one data set.
@@ -101,8 +101,8 @@ actmeans<-cast(tidydata, activity_desc~variable, mean)
 write.table(subjmeans, "merged/means_by_subject.txt", row.names=T, col.names=T) 
 write.table(actmeans, "merged/means_by_activity.txt", row.names=T, col.names=T) 
 
-# unload the libraries
+## unload the libraries
 detach("package:reshape")
-# change back to the original directory
+## change back to the original directory
 setwd(initial.dir)
 ##

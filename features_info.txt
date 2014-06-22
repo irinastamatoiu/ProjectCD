@@ -1,3 +1,8 @@
+The script run_analysis.R transforms the original features set described below by selecting only the means and stddev measures.
+That results in a reduction of the 561 data sets per subject to 86 datasets per subject.
+
+===============Original feature set description starts here===============
+
 Feature Selection 
 =================
 
