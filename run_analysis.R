@@ -1,7 +1,7 @@
 # store the current directory
 initial.dir<-getwd()
 # change to the new directory
-setwd("UCI HAR Dataset")
+setwd("ProjectCD")
 library(reshape)
 ## Point 1: Merge the training and the test sets to create one data set.
 ## Create new directory for merged sets
