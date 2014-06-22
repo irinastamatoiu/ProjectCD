@@ -50,7 +50,36 @@ The following files are available for the train and test data. Their description
 
 ### Results
 
+The following describes the output dataset:
+-- All output files are grouped under the dir '/merged'
 
+-- activities.txt: Activity names cleaned of the activity labels. (Processed from the 'activity_labels.txt' in the input data set.)
+
+-- features.txt: Mean and stddev features from the list of all features in the input data set. (Processed from the 'features.txt' in the input data set.)
+
+-- Inertial Signals: Includes the merged training and test measurements files from the input data (merges file by file 'train/Inertial Signals/' and 'test/Inertial Signals/')
+
+-- means_by_activity.txt: Mean of measurements by activity 
+
+-- means_by_subject.txt: Mean of measurements by subject
+
+-- subject.txt: Merged set from original sets identifier of the subject, 'train/subject_train.txt' and 'test/subject_test.txt.
+
+-- X_meanstd.txt: All mean and std measurements for all subjects and all activities
+
+-- X.txt: Merged set from original sets, test set ('test/X_test.txt') and training set ('train/X_train.txt').
+
+-- y.txt: Merged set from original labels, test labels ('test/y_test.txt') and training labels ('train/y_train.txt).
+
+## License:
+===========
+Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
+
+[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+
+This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the authors or their institutions for its use or misuse. Any commercial use is prohibited.
+
+Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 ### Reference
-
+"Getting and Cleaning Data", www.cousera.org
